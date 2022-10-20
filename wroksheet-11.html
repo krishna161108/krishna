@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function bigImg(x) {
+  x.style.height ="650px";
+  x.style.width ="650px";
+}
+
+function normalImg(x) {
+  x.style.height = "500px";
+  x.style.width = "500px";
+}
+</script>
+</head>
+<body>
+    <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">Terminator is a movie released in 1984 and has 6 different versions</h1>
+
+
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="giphy.gif" alt="Smiley" width="500" height="500">
+
+<p>The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+</body>
+</html>
