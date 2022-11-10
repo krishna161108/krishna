@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body id="demo">    
+    
+<h1>Backkground colour changes</h1>
+
+
+<button onclick="myFunction()">RED</button>
+<button onclick="myFunction1()">GREEN</button>
+<button onclick="myFunction2()">WHITE</button>
+<button onclick="myFunction3()">BLUE</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").style.background="red";
+}
+
+  function myFunction3() {
+  document.getElementById("demo").style.background="blue";
+  }
+
+  function myFunction1() {
+  document.getElementById("demo").style.background="green";
+  }
+  function myFunction2() {
+  document.getElementById("demo").style.background="white";
+}
+</script>
+
+</body>
+</html>
